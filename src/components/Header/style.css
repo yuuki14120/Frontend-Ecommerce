@@ -1,0 +1,27 @@
+.WrapperHeader {
+  padding: 10px 120px;
+  background-color: rgb(26, 148, 255);
+  align-items: center;
+  color: #fff;
+  gap: 16px;
+  flex-wrap: nowrap;
+}
+
+.WrapperTextHeader {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.WrapperTextHeaderSmall {
+  font-size: 12px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.WrapperHeaderAccount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
