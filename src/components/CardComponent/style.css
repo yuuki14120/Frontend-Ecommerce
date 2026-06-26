@@ -1,0 +1,36 @@
+.WrapperCardStyle {
+  width: 200px;
+  & img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.StyleNameProduct {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(56, 56, 61);
+  font-weight: 400;
+}
+
+.WrapperReportText {
+  font-size: 11px;
+  color: rgb(128, 128, 137);
+  display: flex;
+  align-items: center;
+  margin: 6px 0 0;
+}
+
+.WrapperPriceText {
+  color: rgb(255, 66, 78);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.WrapperDiscountText {
+  color: rgb(255, 66, 78);
+  font-size: 12px;
+  font-weight: 500;
+}
+

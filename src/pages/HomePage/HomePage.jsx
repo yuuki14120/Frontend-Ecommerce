@@ -4,6 +4,7 @@ import TypeProduct from "../../components/TypeProduct/TypeProduct";
 import slider1 from "../../assets/images/slider1.webp";
 import slider2 from "../../assets/images/slider2.webp";
 import slider3 from "../../assets/images/slider3.webp";
+import CardComponent from "../../components/CardComponent/CardComponent";
 
 function HomePage() {
   const arr = ["TV", "Laptop", "Điện Thoại"];
@@ -16,8 +17,16 @@ function HomePage() {
           })}
         </div>
       </div>
-      <div id="container" style={{ padding: "0 120px" , backgroundColor: "#efefef"}}>
+      <div
+        id="container"
+        style={{ padding: "0 120px", backgroundColor: "#efefef", height: '1000px' }}
+      >
         <SliderComponent arrImages={[slider1, slider2, slider3]} />
+        <div
+          style={{ display: "flex", marginTop: "20px", alignItems: "center", gap: '20px' }}
+        >
+          <CardComponent />
+        </div>
       </div>
     </>
   );
